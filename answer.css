@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    /* 解答例　↓ */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* 解答例　↑ */
+}
+.box {
+    background-color: #1e50a2;
+    border: 4px solid #103269;
+    width: 30%;
+    height: 30%;
+}
+
+/* 解答例　↓ */
+@media screen and (min-width: 780px) {
+    body {
+        flex-direction: row;
+    }
+}
+/* 解答例　↑ */
